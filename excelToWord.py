@@ -9,7 +9,7 @@ from xlutils.copy import copy
 from mailmerge import MailMerge
 
 #设置文件名和路径
-fname = 'd:/excelToWord/dms数据字典.xlsx'
+fname = 'd:/excelToWord/测试test.xlsx'
 #打开文件
 filename = xlrd.open_workbook(fname)
 # 获取当前文档的表(得到的是sheet的个数，一个整数）

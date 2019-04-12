@@ -8,7 +8,7 @@ import urllib.request
 url = 'http://www.baidu.com'
 page = urllib.request.urlopen(url)
 htmlCode = page.read()
-pageFile = open('D:/pageFile.txt','wb+')
+pageFile = open('D:/pageFile.txt', 'wb+')
 pageFile.write(htmlCode)
-pageFile.close()#关闭
+pageFile.close()  # 关闭
 print('已写入')

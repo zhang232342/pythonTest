@@ -99,9 +99,9 @@ class VideoParse:
     def video_play(self):
         # 视频解析网站地址
 
-        port_1 = 'https://jx.lache.me/cc/?url='
+        port_1 = 'https://660e.com/?url='
 
-        port_2 = 'https://660e.com/?url='
+        port_2 = 'https://jx.lache.me/cc/?url='
 
         # 正则表达是判定是否为合法链接
         if re.match(r'^https?:/{2}\w.+$', self.url.get()):

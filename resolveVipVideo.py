@@ -98,10 +98,10 @@ class VideoParse:
 
     def video_play(self):
         # 视频解析网站地址
-        # 无名小站接口
-        port_1 = 'http://www.wmxz.wang/video.php?url='
-        # 思古解析接口
-        port_2 = 'http://api.bbbbbb.me/jx/?url='
+
+        port_1 = 'https://jx.lache.me/cc/?url='
+
+        port_2 = 'https://660e.com/?url='
 
         # 正则表达是判定是否为合法链接
         if re.match(r'^https?:/{2}\w.+$', self.url.get()):
